@@ -1,5 +1,6 @@
 FROM java
-MAINTAINER jack
+MAINTAINER kevinmay
+
 RUN apt-get update
 RUN apt-get install -y wget
 
